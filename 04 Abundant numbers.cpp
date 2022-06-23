@@ -39,8 +39,7 @@ void print_abundant(int const limit)
         auto sum = sum_proper_divisors(number);
         if (sum > number)
         {
-            cout << number << ", abundance="
-            << sum - number << endl;
+            cout << number << ", abundance="<< sum - number << endl;
         }
     }
 }
